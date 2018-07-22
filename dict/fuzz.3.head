@@ -530,7 +530,6 @@ db_backup.sql.7z
 db_backup.sql.zip
 db_backup.sql.rar
 db_backup.sql.tar.bz2
-db_backup.sql.gz
 db_backup.sql.tar.gz
 db/main.mdb
 default.php

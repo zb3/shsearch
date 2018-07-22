@@ -31,7 +31,6 @@
 .directory
 .dump
 .eclipse
-.env
 .env.php
 .env.sample.php
 .environment
@@ -93,6 +92,7 @@
 .passwd
 .pgpass
 .pgsql_history
+.php_cs.cache
 .project
 .project.xml
 .project/
@@ -781,7 +781,6 @@ db1.sqlite
 db2
 db_admin
 db_backups/
-db_backup.sql
 db_backup.tar.gz
 db_backup.tar.bz2
 db_backup.tar
@@ -1097,7 +1096,7 @@ local.xml.template
 local/
 local_bd_new.txt
 local_bd_old.txt
-localhost.sql
+localhost.sql.gz
 localsettings.php.bak
 localsettings.php.dist
 localsettings.php.old
@@ -1230,6 +1229,9 @@ mysql.tar.bz2
 mysql.tgz
 mysql.7z
 mysql.sql.gz
+mysqldump.sql.gz
+mysqldump.tar.gz
+mysqldump.tar.bz2
 MySQL/
 MySQLAdmin/
 MySQLadmin/
@@ -1673,7 +1675,6 @@ signup.action
 simpleLogin/
 site.rar
 site.txt
-site.sql.gz
 site/
 site/common.xml
 site_admin
@@ -1799,6 +1800,7 @@ tar.gz
 tconn.conf
 technico.txt
 TEMP/
+temp.sql.gz
 temp/
 template/
 templates/
@@ -1811,7 +1813,6 @@ test.htm
 test.html
 test.jsp
 test.mdb
-test.php
 test.sqlite
 test.txt
 test/

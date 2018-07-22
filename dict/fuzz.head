@@ -1,9 +1,10 @@
 .bash_history
+.env
 .git/
 .gitignore
 .mysql_history
 .sync/config.json
-.tavis.yml
+.travis.yml
 _log/
 _logs/
 .atom/remoteEdit.json
@@ -111,6 +112,7 @@ config.inc~
 config.ini
 config.json
 config.local
+config.neon
 config.php-eb
 config.php.bak
 config.php.dist
@@ -153,6 +155,8 @@ db.sql.gz
 db.sqlite
 db.zip
 db.tar.gz
+db_backup.sql
+db_backup.sql.gz
 dbadmin/
 dbconnect.inc
 dbdump.sql
@@ -227,6 +231,7 @@ installer.php
 js/
 js/uploadify/
 load.php
+localhost.sql
 log
 log.txt
 log/
@@ -258,6 +263,7 @@ MyAdmin/
 mysql.sql
 mysql.log
 mysql.inc
+mysqldump.sql
 mysql/
 mysqladmin/
 mysqldumper/
@@ -314,6 +320,7 @@ sign_in/
 signin.php
 signin/
 site.sql
+site.sql.gz
 site.tar.gz
 site.tar.bz2
 site.7z
@@ -352,10 +359,14 @@ symfony/
 sysadmin/
 sysbackup/
 system/
+test.php
+temp.sql
 upload.php
 uploader.php
 uploadify.php
 var/
+vendor/
+vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 web-console/
 web.sql
 web.sql.gz
@@ -373,6 +384,8 @@ website.tar.bz2
 website.tar.gz
 website.tgz
 website.zip
+winscp.ini
+WinSCP.ini
 wp-config.inc
 wp-config.php.bak
 wp-config.php.inc
