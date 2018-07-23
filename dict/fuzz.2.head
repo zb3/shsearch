@@ -23,6 +23,7 @@
 .capistrano
 .capistrano/metrics
 .cfg
+.circleci/config.yml
 .conf
 .config/filezilla/sitemanager.xml.xml
 .config/psi+/profiles/default/accounts.xml
@@ -44,6 +45,8 @@
 .git/config
 .git-rewrite/
 .gitconfig
+.gitlab/
+.gitlab-ci.yml
 .gz
 .hash
 .hg
@@ -67,6 +70,7 @@
 .install/
 .installed.cfg
 .joe_state
+.kitchen.yml
 .ksh_history
 .lesshst
 .listing
@@ -115,9 +119,12 @@
 .sql.bz2
 .sql.gz
 .sqlite_history
+.src/
 .ssh
 .ssh.php
 .ssh/
+.ssh/id_rsa
+.ssh/id_dsa
 .svn
 .svn/
 .svnignore
@@ -503,6 +510,7 @@ application/logs/
 application.log
 application.wadl
 apps/frontend/config/app.yml
+appveyor.yml
 archive.rar
 archive.sql
 assets/fckeditor
@@ -582,6 +590,7 @@ cgi-bin/awstats.pl
 cgi-bin/awstats/
 cgi-bin/logi.php
 cgi-bin/login
+cgi-bin/login.cgi
 cgi-bin/php.ini
 cgi-bin/test.cgi
 cgi.pl/
@@ -607,6 +616,7 @@ ckeditor
 ckeditor/
 classes/
 cleanup.log
+client_secrets.json
 ClientAccessPolicy.xml
 cliente/
 clients.mdb
@@ -647,6 +657,7 @@ config.ini.txt
 config.json.cfm
 config.old
 config.php
+config.php.new
 config.properties
 config.rb
 Config/
@@ -692,6 +703,8 @@ cpbackup-exclude.conf
 cpbt.php
 cpn.php
 crm/
+credentials.json
+credentials.xml
 cron.log
 cron.php
 cron.sh
@@ -775,6 +788,7 @@ db.log
 db.mdb
 db.sql.zip
 db.sql.tar.gz
+db.sqlite3
 db.json
 db1.mdb
 db1.sqlite
@@ -869,6 +883,7 @@ eula_en.txt
 example.php
 examples/
 export
+export.cfg
 export/
 ezsqliteadmin/
 FCKeditor/
@@ -916,6 +931,7 @@ filedump/
 files.md5
 files.php
 filezilla.xml
+fluent.conf
 formslogin/
 forum.rar
 forum.sql
@@ -939,6 +955,8 @@ globals
 h2console
 HISTORY
 home.rar
+Homestead.json
+Homestead.yaml
 host-manager/
 hosts
 htaccess.backup
@@ -1044,6 +1062,8 @@ invoker/
 invoker/JMXInvokerServlet
 ispmgr/
 jdbc
+jenkins/
+jenkins/config/credentials.xml
 jira/
 jmx-console/
 joomla.rar
@@ -1064,6 +1084,7 @@ jscripts/tiny_mce/
 jscripts/tiny_mce/plugins/ajaxfilemanager/ajaxfilemanager.php
 jscripts/tinymce/
 kcfinder/
+kitchen.yml
 kpanel/
 l0gs.txt
 lander.logs
@@ -1574,6 +1595,7 @@ pmyadmin/
 private.key
 private.mdb
 private.sqlite
+Procfile
 profiles.xml
 program/
 project-admins/
@@ -1671,6 +1693,7 @@ sftp.properties
 shopdb/
 showcode.asp
 showlogin/
+sidekiq
 signup.action
 simpleLogin/
 site.rar
@@ -1755,6 +1778,10 @@ suspended.page
 svn.revision
 SVN/
 svn/
+swagger
+swagger-ui.html
+swagger.json
+swagger.yaml
 swfobject.js
 swfupload
 sxd/
@@ -1932,6 +1959,7 @@ web/phpmyadmin/
 web/phpMyAdmin/
 webadmin.html
 webadmin.php
+webalizer/
 webdav.password
 webdav/
 webdav/index.html
@@ -1949,6 +1977,7 @@ webstats.html
 webstats/
 wp-admin/
 wp-app.log
+wp-cli.yml
 wp-config.old
 wp-config.php.dist
 wp-content/backup-db/

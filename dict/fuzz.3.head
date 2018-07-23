@@ -126,7 +126,6 @@
 .jsfmtrc
 .jshintignore
 .jshintrc
-.kitchen.yml
 .keep
 .komodotools
 .komodotools/
@@ -204,7 +203,6 @@
 .ssh.asp
 .ssh/
 .ssh/authorized_keys
-.ssh/id_rsa
 .ssh/id_rsa.key
 .ssh/id_rsa.key~
 .ssh/id_rsa.priv
@@ -449,6 +447,7 @@ c99shell.php
 cache/sql_error_latest.cgi
 cell.xml
 cfajax/app/yahoo/yahoo.htm
+cgi-bin/test-cgi
 cgi-sys/
 Cgishell.pl
 change.log
@@ -572,6 +571,7 @@ engine/
 engine/classes/swfupload/swfupload.swf
 engine/classes/swfupload/swfupload_f9.swf
 engine/libs/spaw/dialogs/dialog.php
+env/
 environment.rb
 errors/creation
 errors/local.xml
@@ -583,6 +583,7 @@ export_log.old.txt
 export_log.txt
 export_stock_log.txt
 FAQ
+fastlane/
 ffftp.ini
 file.sql
 flashFXP.ini
@@ -618,6 +619,7 @@ html/
 html/config.rb
 html/js/misc/swfupload/swfupload.swf
 html/js/misc/swfupload/swfupload_f9.swf
+htmlcov/
 i.php
 i.tar
 i.tar.bz2
@@ -828,14 +830,16 @@ spec/lib/settings.local.yml
 spy.aspx
 sql/db.sql
 sql/index.php
+sqlnet/
 ss_database_backup.sql
+stacktrace.log
 status.php
 STATUS.txt
 statusicon/
 stronghold-info
 stronghold-status
 stub-status
-sqlnet/
+sysinfo.txt
 t00.php
 telphin.log
 temp.php

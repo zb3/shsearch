@@ -2,9 +2,9 @@
 .env
 .git/
 .gitignore
+.git-credentials
 .mysql_history
 .sync/config.json
-.travis.yml
 _log/
 _logs/
 .atom/remoteEdit.json
@@ -302,6 +302,7 @@ recentservers.xml
 resources/
 resources/conf/
 schema.sql
+secrets.json
 server.cfg
 server.log
 server.xml
