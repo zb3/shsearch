@@ -9,11 +9,16 @@
 .git/configf
 .guile_history
 .localcache/
+.nrepl-port
 .nuget/packages.config
+.rebar
 .rsync-filter
 .scala_history
 .www_acl
 .wwwacl
+__history/
+__pycache__/
+__recovery/
 _layouts/
 _layouts/alllibs.htm
 _layouts/settings.htm
@@ -82,6 +87,9 @@ admin2/index.php
 admin2/login.php
 admin4_account/
 admin4_colon/
+admin-database
+admin-database.php
+admin-database/
 admin_admin
 admin_area/
 admin_area/admin

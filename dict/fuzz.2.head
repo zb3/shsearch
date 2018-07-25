@@ -6,6 +6,7 @@
 .addressbook
 .adm
 .admin
+.apt_generated/
 .bak
 .bash_logout
 .bash_profile
@@ -15,6 +16,7 @@
 .buildpath/
 .builds
 .bundle
+.bundle/
 .bz2
 .c9/
 .c9revisions/
@@ -24,6 +26,7 @@
 .capistrano/metrics
 .cfg
 .circleci/config.yml
+.codeclimate.yml
 .conf
 .config/filezilla/sitemanager.xml.xml
 .config/psi+/profiles/default/accounts.xml
@@ -46,6 +49,7 @@
 .git-rewrite/
 .gitconfig
 .gitlab/
+.gitlab/route-map.yml
 .gitlab-ci.yml
 .gz
 .hash
@@ -55,6 +59,7 @@
 .histfile
 .history
 .htpasswd
+.httr-oauth
 .htusers
 .idea/
 .idea/dataSources.ids
@@ -92,11 +97,15 @@
 .metadata/
 .nano_history
 .netrc
+.next
+.node_repl_history
+.nyc_output
 .old
 .passwd
 .pgpass
 .pgsql_history
 .php_cs.cache
+.powenv
 .project
 .project.xml
 .project/
@@ -104,6 +113,7 @@
 .psql_history
 .rhosts
 .robots.txt
+.rocketeer/
 .scrutinizer.yml
 .settings
 .settings/
@@ -134,6 +144,7 @@
 .tar.gz
 .tconn/tconn.conf
 .temp
+.tfignore
 .tgitconfig
 .travis.yml
 .user.ini
@@ -142,6 +153,7 @@
 .vimrc
 .web
 .workspace/
+.yardoc/
 .zsh_history
 0.htpasswd
 0.php
@@ -369,6 +381,7 @@ admin2/
 admin3/
 admin4/
 admin5/
+admin-dev/
 admin_
 admin_/
 admin_area.php
@@ -494,6 +507,7 @@ app/log/
 app/logs/
 app/.htaccess
 app/bin
+app/bootstrap.php.cache
 app/composer.json
 app/composer.lock
 app/docs
@@ -562,6 +576,7 @@ bin/reset-db-prod.sh
 bin/reset-db.sh
 bin/config.sh
 bitrix/
+bitrix_server_test.php
 blog/
 blogindex/
 bot.txt
@@ -677,6 +692,7 @@ config/database.yml_original
 config/database.yml~
 config/database.json
 config/database_config.json
+config/master.key
 config/monkcheckout.ini
 config/monkdonate.ini
 config/monkid.ini
@@ -837,6 +853,7 @@ dist/
 docker-compose-dev.yml
 docker-compose.yml
 Dockerfile
+docs.json
 documentation/
 dom.php
 download/history.csv
@@ -943,8 +960,10 @@ forums/
 fpadmin
 fpadmin/
 ftp.txt
+fuel/
 function.require
 functions/
+gen/
 get.php
 getfile.php
 git-service
@@ -1051,6 +1070,7 @@ install.tpl
 INSTALL.txt
 Install.txt
 install.txt
+install-log.txt
 install/update.log
 install_mgr.log
 install~/
@@ -1176,6 +1196,7 @@ mail.log
 mailman/listinfo
 main.mdb
 main/
+main.tf
 maint/
 maintenance.php
 Makefile
@@ -1868,6 +1889,7 @@ uber/phpMyAdminBackup/
 upload/
 upload/upload.php
 upload2.php
+uploaded/
 uploader/
 upload_file.php
 uploadfile.php
